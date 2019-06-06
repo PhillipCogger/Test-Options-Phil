@@ -11,7 +11,8 @@
   "heading": "This is your start page heading",
   "lede": "This is your start page first paragraph. You can only have one paragraph here.",
   "steps": [
-    "page.component-test-1"
+    "page.component-test-1",
+    "page.radios-test-page"
   ],
   "url": "/"
 }

@@ -1,0 +1,53 @@
+{
+  "_id": "page.radios-test-page",
+  "_type": "page.form",
+  "body": "Testing radio options with double radios components - yes / no - yes / no including conditions.",
+  "components": [
+    {
+      "_id": "page.radios-test-page--radios.auto_name__7",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.radios-test-page--radios.auto_name__7--radio.auto_value__1",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.radios-test-page--radios.auto_name__7--radio.auto_value__1--textarea.auto_name__7",
+            "_type": "textarea",
+            "label": "Test 1",
+            "name": "test_1"
+          },
+          "label": "Yes",
+          "value": "yes-no-1"
+        },
+        {
+          "_id": "page.radios-test-page--radios.auto_name__7--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No",
+          "value": "yes_no_2"
+        },
+        {
+          "_id": "page.radios-test-page--radios.auto_name__7--radio.auto_value__1--2",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.radios-test-page--radios.auto_name__7--radio.auto_value__1--2--textarea.auto_name__7",
+            "_type": "textarea",
+            "label": "Test 10",
+            "name": "test_10"
+          },
+          "label": "Yes",
+          "value": "test_3"
+        },
+        {
+          "_id": "page.radios-test-page--radios.auto_name__7--radio.auto_value__2--2",
+          "_type": "radio",
+          "label": "No",
+          "value": "test_4"
+        }
+      ],
+      "legend": "Radios testing",
+      "name": "radios_1_2"
+    }
+  ],
+  "heading": "Radios test",
+  "url": "radios-test-page"
+}
